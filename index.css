@@ -1,0 +1,201 @@
+.back {
+  background-color: black;
+  background-position: center;
+  background-size: contain;
+}
+
+.container {
+  width: 75% !important;
+}
+.NavBar1 {
+  position: sticky;
+  top: 0;
+  background:brown !important;
+  z-index: 99999;
+}
+.titletext {
+  background-position: center;
+  font-size: 27px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.navdropdown {
+  display: inline-block;
+  color: white;
+  padding-right: 5px;
+}
+.dropdown-menu {
+  background-color: black !important;
+}
+.dropdown-toggle {
+  cursor: pointer;
+}
+.dropdown:hover .dropdown-menu {
+  box-shadow: 0 1rem 3rem rgb(255, 68, 0);
+  display: block;
+  margin-top: 0;
+}
+.dropdown-item {
+  color: white !important;
+  cursor: pointer;
+  background-color: black !important;
+}
+.navdropdown a::after {
+  margin-left: 0px;
+}
+.search {
+  width: 77%;
+}
+
+.paragraph {
+  color: #f5eedc;
+  background-color: black;
+  opacity: 0.9;
+  padding: 25px;
+}
+
+.navbuttons {
+  width: 100%;
+}
+
+.btn-secondary {
+  color: white;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to right, #590302, #bf1111, #590302) repeat scroll 0 0 !important;
+}
+
+.btn-secondary:hover {
+  border-style: solid !important;
+  border-color: #e5890a !important ;
+  background-color: #e5890a !important;
+  color: #e5890a !important;
+  box-shadow: 0 1rem 3rem rgb(255, 68, 0);
+}
+
+.spoilerwarning {
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to right, #590302, #bf1111, #590302) repeat scroll 0 0 !important;
+  border: 2 px solid darkred;
+}
+
+.topnav {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.myslides {
+  height: 275px;
+
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.gallery {
+  background: transparent;
+}
+
+.gallery-cell {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.charactersheading {
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to right, #590302, #bf1111, #590302) repeat scroll 0 0 !important;
+  border: 2 px solid darkred;
+}
+
+.characters img {
+  padding: 5px;
+  height: 120px;
+  border-radius: 10px;
+  width: 120px;
+}
+
+.CharTitle {
+  position: absolute;
+  border-radius: 5px;
+  right: 5px;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  bottom: 5px;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to right, #fd5200 30%, #fdfa00 70%, #fd5200 90%);
+}
+
+.characters img:hover {
+  box-shadow: 0 1rem 3rem rgb(255, 68, 0);
+  border-style: hidden;
+  background-color: #e5890a;
+}
+
+.Synopsis {
+  text-align: center;
+  margin-bottom: 2px;
+  color: white;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to right, #590302, #bf1111, #590302) repeat scroll 0 0 !important;
+  border: 2 px solid darkred;
+}
+
+.SynText {
+  color: white;
+  background-image: url("./Pbackground.jpg");
+}
+
+.footerback {
+  background-color: #280033;
+  color: white;
+}
+.imageUnderline {
+  border-radius: 8px;
+  padding: 5px;
+  background-color: #e8f6ef;
+}
+.footerback li {
+  list-style-type: none;
+  font-size: 14px;
+  padding: 4px;
+}
+
+.footerback li a {
+  color: #ffc500;
+}
+
+.footertitle {
+  color: white;
+  font-weight: bold;
+}
+.footerIcon {
+  width: 80px;
+  border-radius: 15px;
+}
+
+.footerIcon2 {
+  width: 80px;
+  border-radius: 15px;
+}
+
+.downloadapp img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.footertext {
+  color: white;
+  font-size: small;
+}
